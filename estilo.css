@@ -1,0 +1,163 @@
+.content {
+    padding: 80px 80px 0;
+    background: rgba(230, 242, 255, 0.5);
+    position: relative;
+    z-index: 1;
+    flex: 1 1 1010px;
+}
+
+.top-block {
+    height: 200px;
+    background: #222222;
+    border-radius: 4px;
+}
+
+
+.user-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 30px;
+    color: #ffff;
+    margin-top: 0;
+}
+
+.name-block {
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.user-work {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffff;
+    margin-top: 0;
+}
+
+
+.header-collapse {
+    border: 1px solid #D0D0D0 !important;
+    border-radius: 8px !important;
+}
+
+.header-collapse a {
+    padding: 14px 21px;
+    color: black !important;
+}
+
+.header-collapse a:hover {
+    color: black !important;
+}
+
+.action-button {
+    background: #7B2DC9;
+    border-radius: 4px;
+    padding: 12px 0px;
+    color: white;
+    border: 1px solid #7B2DC9;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.action-button:hover {
+    color: #7B2DC9;
+    background: white;
+}
+
+.collapse-body {
+    position: relative;
+    top: -3px;
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #D0D0D0 !important;
+    border-top: none !important;
+}
+
+.download-btn {
+    position: relative;
+    z-index: 1;
+    color: #7B2DC9;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.download-btn:hover {
+    color: white;
+    background-color: #7B2DC9;
+}
+
+.icon-collapse {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.text-truncate {
+    max-width: 275px;
+}
+
+@media (max-width: 991px) {
+    .content {
+        padding: 20px;
+    }
+
+    .top-block {
+        min-width: 334px;
+        height: 174px;
+    }
+
+    .top-image {
+        width: 40%;
+    }
+
+    .name-block {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .user-name {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .user-work {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .header-collapse a {
+        padding: 14px;
+        color: black !important;
+    }
+}
+
+@media (min-width: 575px) {
+    .text-truncate {
+        max-width: 420px;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-truncate {
+        max-width: 595px;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-truncate {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-truncate {
+        max-width: 895px;
+    }
+}
